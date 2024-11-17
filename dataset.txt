@@ -1,0 +1,81 @@
+cadenas vacias
+s1:
+s2:
+tipo: 1
+resultado: 0
+
+s1: aaaabbbbccccddddeeeeffffgggghhhhiiii
+s2:
+tipo: 1
+resultado: 36
+
+s1: abcdefghijklmnopqrstuvwxyz
+s2:
+tipo: 1
+resultado: 26
+
+s1:
+s2: abcdefghijklmnopqrstuvwxyz
+tipo: 2
+resultado: 325
+
+s1: qwertyuiopasdfghjklzxcvbnmmnbvcxz
+s2:
+tipo: 3
+resultado: 96
+
+
+
+Repetidos
+s1: abcdefghijklmnopqrstuvwxyz
+s2: abcdefghijklmnopqrstuvwxyz
+tipo: 2
+resultado: 0
+
+s1: aaaaaaaaaaaaaaaaaaaaaaaaaaaa  
+s2: abcdefghijklmnopqrstuvwxyz
+tipo: 2
+resultado: 325
+
+s1: sdfsdfsdfsdfsdfsdf
+s2: qweqweqweqwesdf
+tipo: 2
+resultado: 177
+
+s1: aaaaaaaaaa
+s2: aaaaaaaaaa
+tipo: 2
+resultado: 0
+
+s1: aabbccddffgghhiijj 
+s2: aabbccjjiihhggffdd
+tipo: 3
+resultado: 24
+
+
+
+Transposicion
+s1: ad
+s2: da
+tipo: 2
+resultado: 1
+
+s1: asdfgh 
+s2: safdhg
+tipo: 2
+resultado: 9
+
+s1: aaaaabaa 
+s2: aaaabaaa
+tipo: 2
+resultado: 1
+
+s1: asdfghjklzxc 
+s2: asfdghkjzlcx
+tipo: 2
+resultado: 30
+
+s1: abcdefghi 
+s2: aaaaaaih
+tipo: 3
+resultado: 18
